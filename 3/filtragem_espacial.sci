@@ -1,6 +1,6 @@
 clear;clc
 // Contaminando a imagem
-baloes = imread('C:\Users\AlefPasqualotto\Desktop\Escola\UFRGS\Sem5\FPI\Trabalho\4\balloons_gray.png');
+baloes = imread('C:\Users\AlefPasqualotto\Desktop\Escola\UFRGS\Sem5\FPI\Trabalho\4\balloons.png');
 percentagem_ruido_salt = 0.05;
 percentagem_ruido_gaussian = 0.05;
 baloes_salt = imnoise(baloes, 'salt & pepper', percentagem_ruido_salt);
